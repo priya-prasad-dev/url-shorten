@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  margin-bottom: 20px;
+}
+.name label{
+  font-weight: bold;
+}
+.name input
+ {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.email{
+  margin-bottom: 20px;
+}
+.email label{
+  font-weight: bold;
+}
+.email input
+ {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.message{
+  margin-bottom: 20px;
+}
+.message label{
+  font-weight: bold;
+}
+.message textarea
+ {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons {
+  width: 100%;
+  padding: 10px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} 
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .buttons {
+    padding: 8px;
+  }
+} 
+
